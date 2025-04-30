@@ -1,0 +1,38 @@
+@media screen and (min-width: 768px) {
+    #container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        color: var(--color-font-basic);
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,163,255,1) 0%, rgba(51,81,122,1) 100%);
+        padding: 64px 34px;
+        gap: 1rem;
+    }
+
+    .align-link{
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #container{
+        color: var(--color-font-basic);
+        background: #137cbd;
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,163,255,1) 0%, rgba(51,81,122,1) 100%);
+        padding: 64px 34px;
+    }
+
+    .space{
+        margin-bottom: 36px;
+    }
+}
+
+/* RESPONSIVIDADE */
+/* Resoluções para Responsividade: */
+/* De 320px até 568px (Celular): Medida para celulares de BAIXA resolução */
+/* De 568px até 768px (Celular): Medidas para celulares de ALTA resolução */
+/* De 768px até 998px (Tablet): Medida para Tablets */
+/* De 998px full: Medida para Notebook e Desktop */

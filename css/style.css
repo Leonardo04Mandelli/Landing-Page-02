@@ -1,0 +1,133 @@
+@import url(./variables.css);
+@import url(./mediaQuery.css);
+
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: var(--color-font-basic);
+}
+
+label{
+    margin-bottom: 4px;
+}
+
+#page{
+    font-family: var(--font-site);
+}
+
+#topo{
+    background-color: var(--backg-header-footer);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 28px;
+}
+
+#end{
+    background-color: var(--backg-header-footer);
+    color: var(--color-font-basic);
+    padding: 16px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.img-user{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.menu{
+    display: flex;
+    justify-content: end;
+}
+
+.link-header{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #c4c4c4;
+}
+
+.link-header:hover{
+    color:#137cbd;
+}
+
+.link-header:active{
+    color: #8bb81a;
+}
+
+.form-one, .form-two{
+    padding: 22px;
+    background-color: var(--backg-card-form);
+    box-shadow: 2px 2px 6px #6b5c5c;
+    border-radius: 8px;
+    opacity: 80%;
+    transition: 0.2s;
+}
+
+.form-one:hover, .form-two:hover{
+    background-color: var(--backg-card-form);
+    opacity: 100%;
+}
+
+.camp-login, .camp-cadastro{
+    height: 32px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 22px;
+    padding: 5px;
+}
+
+.camp-cadastro-obs{
+    height: 95px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 22px;
+    padding: 5px;
+    font-family: var(--font-form);
+    font-size: 0.8rem;
+}
+
+.btnAcessar{
+    height: 32px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background-color: black;
+    color: var(--color-font-basic);
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btnAcessar:hover{
+    background-color: rgb(79, 78, 78);
+}
+
+.btnCadastrar{
+    height: 32px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(54, 99, 40);
+    color: var(--color-font-basic);
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btnCadastrar:hover{
+    background-color: #708d28;
+}
