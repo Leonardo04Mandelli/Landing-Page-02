@@ -1,1 +1,9 @@
-Basic Sign-up and Login Landing Page using front-end technologies: HTML5 (structuring), CSS3 (styling), JavaScript (validation), and Responsiveness (mediaQuery).
+Projeto 01 - Front End Avançado
+
+Projeto desenvolvido com a instituição WMBarros - Londrina-PR
+
+Landing page básica de inscrição e login usando tecnologias front-end:
+- HTML5 (estruturação)
+- CSS3 (estilo)
+- JavaScript (validação)
+- Responsividade (mediaQuery).
